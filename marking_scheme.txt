@@ -1,0 +1,56 @@
+
+
+Background:
+Kindly note that you are NOT required to answer all these questions. 
+Job Responsibility and Roles 
+    What is my job responsibility? 
+    How do I view my job role in the workplace? 
+What (or who) has influenced my approach to my job duty? 
+What makes me feel good about being a staff in your workplace? 
+Workplace experience 
+    Any workplace experience that I have accumulated? 
+    Any workplace experience I can recall is quite memorable?
+Learning in Workplace
+    Any technical skills (Hardware / Software) that I have learnt? 
+    Any soft skills that I have learnt?
+    Any skills that I have learnt are related to your programme “Higher Diploma in Cloud & Data Center Administration”?
+Comments on Workplace and Suggestions
+    Any comments on your workplace? 
+    Any suggestions you can make to your workplace supervisor / mentor for your workplace to create a positive impact (e.g. improve efficiency, reduce human error ... etc)?
+About WLA (Workplace Learning & Assessment)
+    Any difficulties when I perform WLA
+    Anything I have learnt through school or workplace can help my WLA
+Evaluation
+    What do I feel about job performance? If I give a mark (total 100) to myself, what is my result?
+    Any achievements I have made so far?
+    How do my workplace supervisor/mentor see my work?
+    How do my workplace colleagues see my work?
+Career Path / Future goals
+    What is the career path of my current post? 
+    What are further goals you want to achieve upon my current job?
+Appendices (Optional)
+    Any cert or record of compliments I received from my workplace?
+    Any evidence to support my statements? 
+
+Comments on the following student answer in 150 words.
+++++++++++++++++++++++++++++++++++++++++++++++++++
+<ANSWER></ANSWER>
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Give a mark from 0-70 for above student answer. 
+1. Job Responsibility and Roles                                 10 marks
+2. Workplace experience                                         10 marks
+3. Learning in Workplace                                        10 marks
+4. Comments on Workplace and Suggestions                        10 marks
+5. Job Evaluation (Self / Mentor / Colleague)                   10 marks
+6. Career Path / Future goals                                   10 marks
+7. Format (With at least 800 words but less than 2000 words)    10 marks
+
+Explain the your mark in comments.
+
+Response with JSON in the following format:
+{
+"marks": 1,
+"comments": ""
+}   
