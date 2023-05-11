@@ -58,9 +58,10 @@ Response with a valid JSON in the following format:
     "marks": 1,
     "comments": ""
     "details":[
-        {"task": "1. Job Responsibility and Roles", "marks": 1, "comments":"The Reason"}
-        {"task": "2. Workplace experience", "marks": 10, "comments":"The Reason"}        
+        {"task": "1. Job Responsibility and Roles", "marks": 1, "comments":"The Reason"},
+        {"task": "2. Workplace experience", "marks": 10, "comments":"The Reason"},
         ...and so on...
+        {"task": "7. Format (With at least 800 words but less than 2000 words)", "marks": 10, "comments":"The Reason"}
     ],
     "copyFromInternet": 0.1,
     "generativeAI": 0.1
