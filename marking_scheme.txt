@@ -53,12 +53,12 @@ Rules:
 
 "comments"
 1. Explain the mark calculation, 
-2. shows the marks from each rule, 
-3. encouraging style here, 
-4. in your comments replace all " to '
-5. less than 200 words.
+2. Shows the marks from each rule, 
+3. Encouraging style here, 
+4. In your comments replace all " to '
+5. Less than 200 words.
 
-Do not include any explanations, only provide a  RFC8259 compliant JSON response following this format without deviation.
+Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation.
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 {
     "marks": 30,
