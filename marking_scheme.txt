@@ -48,21 +48,24 @@ Rules:
 6. Career Path / Future goals                                   10 marks
 7. Format (With at least 800 words but less than 2000 words)    10 marks
 
-Explain your marks in "comments" and give the "details" of marks from each rule.
-"comments" should encourage students.
 "copyFromInternet" is 0 - 1.0 which is the likelihood of copying from internet. 
 "generativeAI" is 0 - 1.0 which is the likelihood of the answer is using AI generate. 
 
-Response with a valid JSON in the following format:
+"comments"
+1. Explain the mark calculation, 
+2. shows the marks from each rule, 
+3. encouraging style here, 
+4. in your comments replace all " to '
+5. less than 200 words.
+
+Do not include any explanations, only provide a  RFC8259 compliant JSON response following this format without deviation.
+++++++++++++++++++++++++++++++++++++++++++++++++++
 {
-    "marks": 1,
-    "comments": ""
-    "details":[
-        {"task": "1. Job Responsibility and Roles", "marks": 1, "comments":"The Reason"},
-        {"task": "2. Workplace experience", "marks": 10, "comments":"The Reason"},
-        ...and so on...
-        {"task": "7. Format (With at least 800 words but less than 2000 words)", "marks": 10, "comments":"The Reason"}
-    ],
+    "marks": 30,
     "copyFromInternet": 0.1,
-    "generativeAI": 0.1
-}   
+    "generativeAI": 0.5,    
+    "comments": "This is good!"
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++
+The JSON response:
+
