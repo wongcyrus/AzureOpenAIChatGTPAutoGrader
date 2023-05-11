@@ -1,5 +1,4 @@
 
-
 Background:
 Kindly note that you are NOT required to answer all these questions. 
 Job Responsibility and Roles 
@@ -37,8 +36,10 @@ Comments on the following student answer in 150 words.
 <ANSWER></ANSWER>
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 
+Instructions:
+Give a "marks" from 0-70 for above student answer. 
 
-Give a mark from 0-70 for above student answer. 
+Rules:
 1. Job Responsibility and Roles                                 10 marks
 2. Workplace experience                                         10 marks
 3. Learning in Workplace                                        10 marks
@@ -47,10 +48,20 @@ Give a mark from 0-70 for above student answer.
 6. Career Path / Future goals                                   10 marks
 7. Format (With at least 800 words but less than 2000 words)    10 marks
 
-Explain the your mark in comments.
+Explain your marks in "comments" and give the "details" of marks from each rule.
+"comments" should encourage students.
+"copyFromInternet" is 0 - 1.0 which is the likelihood of copying from internet. 
+"generativeAI" is 0 - 1.0 which is the likelihood of the answer is using AI generate. 
 
-Response with JSON in the following format:
+Response with a valid JSON in the following format:
 {
-"marks": 1,
-"comments": ""
+    "marks": 1,
+    "comments": ""
+    "details":[
+        {"task": "1. Job Responsibility and Roles", "marks": 1, "comments":"The Reason"}
+        {"task": "2. Workplace experience", "marks": 10, "comments":"The Reason"}        
+        ...and so on...
+    ],
+    "copyFromInternet": 0.1,
+    "generativeAI": 0.1
 }   
