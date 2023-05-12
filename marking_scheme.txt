@@ -55,7 +55,7 @@ Rules:
 1. Explain the mark calculation, 
 2. Shows the marks from each rule, 
 3. Encouraging style here, 
-4. In your comments replace all " to '
+4. comments must not contain double quote!
 5. Less than 200 words.
 
 Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation.
