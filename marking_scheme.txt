@@ -1,5 +1,6 @@
+Act as a teacher, give mark and comments for a writing assignment.
 
-Background:
+Assignment Background:
 Kindly note that you are NOT required to answer all these questions. 
 Job Responsibility and Roles 
     What is my job responsibility? 
@@ -32,9 +33,10 @@ Appendices (Optional)
     Any evidence to support my statements? 
 
 Comments on the following student answer in 150 words.
-++++++++++++++++++++++++++++++++++++++++++++++++++
+The text delimited by 20 equals sign is the student answer.
+====================   
 <ANSWER></ANSWER>
-++++++++++++++++++++++++++++++++++++++++++++++++++
+====================
 
 Instructions:
 Give a "marks" from 0-70 for above student answer. 
@@ -47,25 +49,34 @@ Rules:
 5. Job Evaluation (Self / Mentor / Colleague)                   10 marks
 6. Career Path / Future goals                                   10 marks
 7. Format (With at least 800 words but less than 2000 words)    10 marks
+8. If the answer does not show anything meaningful give 0 marks, and set manualReview to true.
 
 "copyFromInternet" is 0 - 1.0 which is the likelihood of copying from internet. 
 "generativeAI" is 0 - 1.0 which is the likelihood of the answer is using AI generate. 
 
-"comments"
-1. Explain the mark calculation, 
-2. Shows the marks from each rule, 
-3. Encouraging style here, 
-4. comments must not contain double quote!
-5. Less than 200 words.
+"comments" includes
+1. Explain the mark calculation in "comments"
+2. Shows the marks for each rule line by line in "comments"
+3. "comments" in Encouraging Style.
+4. Less than 200 words in "comments".
+5. Escape all special characters in "comments" by following 6 rules:
+    replaces \b to \\b
+    replaces \n to \\n
+    replaces \r to \\r
+    replaces \t to \\t
+    replaces \" to \\"
+    replaces \ to \\
 
-Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation.
+Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation in the following format.
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 {
     "marks": 30,
     "copyFromInternet": 0.1,
     "generativeAI": 0.5,    
-    "comments": "This is good!"
+    "manualReview": false,
+    "comments": "This is good!"    
 }
 ++++++++++++++++++++++++++++++++++++++++++++++++++
+Do not return anything after the JSON Object.
 The JSON response:
 
