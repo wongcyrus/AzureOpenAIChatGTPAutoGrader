@@ -59,24 +59,5 @@ Rules:
 2. Shows the marks for each rule line by line in "comments"
 3. "comments" in Encouraging Style.
 4. Less than 200 words in "comments".
-5. Escape all special characters in "comments" by following 6 rules:
-    replaces \b to \\b
-    replaces \n to \\n
-    replaces \r to \\r
-    replaces \t to \\t
-    replaces \" to \\"
-    replaces \ to \\
 
-Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation in the following format.
-++++++++++++++++++++++++++++++++++++++++++++++++++
-{
-    "marks": 30,
-    "copyFromInternet": 0.1,
-    "generativeAI": 0.5,    
-    "manualReview": false,
-    "comments": "This is good!"    
-}
-++++++++++++++++++++++++++++++++++++++++++++++++++
-Do not return anything after the JSON Object.
-The JSON response:
 
